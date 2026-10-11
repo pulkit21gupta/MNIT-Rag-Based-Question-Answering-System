@@ -169,7 +169,7 @@ def search_local(question: str) -> list[SourceItem]:
 
 
 def search_web(question: str) -> tuple[str, list[SourceItem]]:
-    """Search the web via Tavily."""
+    """Search the official MNIT website via Tavily (mnit.ac.in only)."""
     if not STATE["tavily"]:
         return "", []
     try:
@@ -177,6 +177,7 @@ def search_web(question: str) -> tuple[str, list[SourceItem]]:
             query=question,
             max_results=TAVILY_MAX_RESULTS,
             search_depth="basic",
+            include_domains=["mnit.ac.in"],   # Official MNIT website only
         )
         context_parts = []
         sources = []
