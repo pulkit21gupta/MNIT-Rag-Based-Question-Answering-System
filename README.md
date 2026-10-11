@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers questions about hostels, placements, academics, departments, sports, and more from a curated knowledge base.
 
-![Tech Stack](https://img.shields.io/badge/LLM-Groq-orange) ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-blue) ![VectorDB](https://img.shields.io/badge/VectorDB-ChromaDB-green) ![Framework](https://img.shields.io/badge/Backend-Flask-lightgrey)
+![Tech Stack](https://img.shields.io/badge/LLM-Groq-orange) ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-blue) ![VectorDB](https://img.shields.io/badge/VectorDB-ChromaDB-green) ![Framework](https://img.shields.io/badge/Backend-FastAPI-009688)
 
 ---
 
@@ -14,6 +14,7 @@ A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers quest
 - **Local Embeddings** — `all-MiniLM-L6-v2` runs fully on CPU, no paid embedding API needed
 - **Persistent Vector Store** — ChromaDB auto-saves and reloads on restart
 - **Expandable Knowledge Base** — Drop new `.txt` files in the data folder to add topics
+- **Auto API Docs** — Interactive Swagger UI available at `/docs` (powered by FastAPI)
 
 ---
 
@@ -69,7 +70,11 @@ GROQ_API_KEY="your_groq_api_key_here"
 cd rag_demo
 python app.py
 ```
-Open **http://localhost:5000** in your browser. Wait ~20 seconds for the RAG system to initialise.
+Open your browser:
+- **http://localhost:5000** — Chat UI
+- **http://localhost:5000/docs** — Interactive API docs (Swagger UI)
+
+Wait ~20 seconds after starting for the RAG system to initialise.
 
 ### 5. (Optional) Run CLI version
 ```bash
@@ -139,8 +144,9 @@ TXT_PATH           = r"path\to\mnit data"      # Knowledge base folder
 | Embeddings | `sentence-transformers/all-MiniLM-L6-v2` |
 | Vector Store | ChromaDB |
 | Orchestration | LangChain (LCEL) |
-| Backend | Flask |
+| Backend | FastAPI + Uvicorn (ASGI) |
 | Frontend | HTML / CSS / Vanilla JS |
+| API Docs | Swagger UI (auto-generated at `/docs`) |
 
 ---
 
