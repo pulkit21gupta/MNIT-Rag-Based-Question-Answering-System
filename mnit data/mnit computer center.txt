@@ -1,0 +1,193 @@
+The Computer Centre, a centralized computing facility of the Institute since 1989, caters to the need of different academic departments and various sections of the Institute by providing and managing extensive computing & networking facilities to the Institute. To facilitate the use of the latest information technology in Institute's teaching, learning, research and administration; to provide an excellent network environment that facilitates the access and exchange of information; to put innovation in technology transfer; to assist the Institute in its mission; to enable faculty, staff and students to use the computer and network resources effectively and efficiently; and to aim to provide the best quality IT services in the region, the Computer Centre at MNIT Jaipur has continued to re-engineer the process of its service operations for increased productivity and better quality.
+
+The new Computer Centre has been established at the first floor of Prabha Bhawan which was inaugurated by Prof. S.V. Raghavan on 19th October 2014.
+
+The Centre is housing 550 PCs (including 110 Graphics Work Stations), placed in 11 computer labs.
+
+Computer centre remains open round the clock all 365 days.
+
+People Deanery
+
+Prof. Vineet Sahula
+ Dean of Digital Infrastructure & Services
+ dean.dis@mnit.ac.in
+
+
+Dr. Vivekanand V
+ Associate Dean (Digital Outreach)
+ ad.do@mnit.ac.in
+
+Dr. Ramesh Babu Battula
+ Associate Dean (Computer Centre)
+ ad.cc@mnit.ac.in
+
+Dr. Ravi Kumar Maddila
+ Associate Dean (Network Infrastructure)
+ ad.ni@mnit.ac.in
+
+Dr. Rajendra Mitharwal
+ Coordinator (Video Conferencing Infra)
+ coordinator.vci@mnit.ac.in
+
+Dr. Arka Prokash Mazumdar
+ Coordinator (ERP)
+ coordinator.erp@mnit.ac.in
+
+Dr. Dinesh Kumar Tyagi
+ Coordinator (Data Centre/Cloud)
+ coordinator.datacentre@mnit.ac.in
+
+Dr. Ashish Kumar Tripathi
+ Coordinator (Website)
+ coordinator.website@mnit.ac.in
+
+Dr. Satyendra Singh Chouhan
+ Coordinator (Data Management)
+ coordinator.dm@mnit.ac.in
+
+Dr. Mahipal Jadeja
+ Coordinator (Teaching Learning Management System)
+ coordinator.tlms@mnit.ac.in
+
+
+People Administration
+Dr. Sanjay Rajpal
+ Sr. Scientific Officer
+ Ph. D.
+ srajpal@mnit.ac.in
+
+Mr. Parmeshwar Jhanwar
+ Scientific Officer
+ MCA, M.Sc.(Mathematics)
+ Expertise :Web Development
+ parmeshwar.ccc@mnit.ac.in
+
+Mr. Devendra Kumar Mahawer
+ Technical Assistant (SG-I)
+ M.TECH
+ Expertise :Software Design Lab
+ devendramahawer.cse@mnit.ac.in
+
+Mr. Jaipal Singh Chouhan
+ Technical Assistant (SG-I)
+ B.E.
+ jaipalsingh.ccc@mnit.ac.in
+
+Mr. Narendra Kumar Godara
+ Technical Assistant (SG-I)
+ APGDCA, BA
+ Expertise :Hardware, Networking
+ ngodara.ccc@mnit.ac.in
+
+Mr. Ramesh Jat
+ Assistant Registrar
+ M.Tech.
+ rameshjat@mnit.ac.in
+
+Mr. Rameshwar Meena
+ Technical Assistant (SG-I)
+ B.Tech (CSE)
+ Expertise :VCR, NKN
+ rameshwar.cse@mnit.ac.in
+
+Ms. Neelam Gupta
+ Technical Assistant (SG-II)
+ M. Tech
+ Expertise :Web Development
+ neelam.ccc@mnit.ac.in
+
+Mr. Prahalad Khatik
+ Technical Assistant (SG-II)
+ B.Tech in Computer Science & Engineering
+ Expertise :Web Development
+ prahalad.ccc@mnit.ac.in
+
+Mr. Surendera Kumawat
+ Senior Technical Assistant
+ surendrakumawat@mnit.ac.in
+
+Ms. Taru Sharma
+ Senior Technical Assistant
+ B.Tech in Computer Science & Engineering, MBA (IT)
+ Expertise :Website Development
+ taru.ccc@mnit.ac.in
+
+Mr. Deepak Badiyal
+ Technician (SG-II)
+ Diploma in Electronics & Communication Engineering.
+ deepakbadiyal.ece@mnit.ac.in
+
+Mr. Deepak Kumar
+ Technician (SG-II)
+ B. Tech. (CSE)
+ deepakkkumar.ccc@mnit.ac.in
+
+Mr. Ravi Kumar Jangir
+ Technician (SG-II)
+ Diploma in Computer Science & Engg.
+ Expertise :Computer Networks
+ ravijangir.cse@mnit.ac.in
+
+Mr. Jugal Kishor Saini
+ Senior Technician
+ B. Tech in CSE
+ Expertise :Web Development
+ jugalkishorsaini@mnit.ac.in
+
+Mr. Vikas Kumar
+ Senior Technician
+ Expertise :Virtual Class Room
+ vikas.ece@mnit.ac.in
+
+Mr. Sharwan Kumar Jangir
+ Technician
+ B. Tech, Diploma
+ sharwanjangid.ece@mnit.ac.in
+
+Mr. Shiv Kumar Sharma
+ Technician
+ Diploma (CSE)
+ Expertise :Virtual Class Room
+ shivksharma.ccc@mnit.ac.in
+
+Mr. Bhagwan Sahay Kumawat
+ Junior Assistant
+ B.A.
+ bhagwan@mnit.ac.in
+
+Mr. Natwar Agrawal
+ Junior Assistant
+ natwar@mnit.ac.in
+
+Mr. Chandan Singh Panwar
+ Office Attendant
+ chandansingh@mnit.ac.in
+
+Instructions regarding usage of Labs
+All the students are advised to follow the following instructions strictly in the labs.
+
+Student must enter his/her name and relevant details in the register while entering the Computer Centre.
+Student must carry Institute Identity card while working at the Centre and shall show the same to the staff on demand.
+Students are strictly prohibited browsing any obscene site or material.
+A Student found working on a particular machine shall be responsible for all the contents in that machine.
+While working at the Centre, students should remain quite, avoid loiter, gossip or playing computer games.
+Consuming terminal time on social websites (including chatting etc.) in any form is highly unwanted. The students found indulging in such activities may be asked to leave the terminal as academic work is hampered because of such occupancies.
+Students are strictly enjoined not to unplug or remove any hardware component in the lab.
+Violation of any of the above instructions may lead to punitive action such as fine or the name of the student may be recommended to the Disciplinary Board for severe action.
+
+All the students are requested to Co-operate.
+(Dean, Digital Infrastructure and Services)
+
+
+
+Contacts for Technical Support & logging complaints
+#	Services	Email Id	Level-2	Level-3
+1.	Webmaster of the Institute Website	webmaster@mnit.ac.in	Coordinator.website@mnit.ac.in	dean.dis@mnit.ac.in
+3.	Coordinator, ERP	coordinator.erp@mnit.ac.in
+4.	Data Centre/Cloud	datacentre@mnit.ac.in	Coordinator.datacentre@mnit.ac.in
+5.	Network Infrastructure	Complaint Registration	cwn@mnit.ac.in
+ad.ni@mnit.ac.in
+6.	Institute Email Services	admin@mnit.ac.in	ad.cc@mnit.ac.in
+7.	LDAP (Internet/Intranet Login)	ldap@mnit.ac.in	ad.ni@mnit.ac.in
+8.	Telephony	telephony@mnit.ac.in	ad.ni@mnit.ac.in
+9.	Virtual Class Room	vcmnit@mnit.ac.in	coordinator.vci@mnit.ac.in

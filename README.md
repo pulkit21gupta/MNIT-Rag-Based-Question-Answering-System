@@ -114,13 +114,13 @@ python rag_demo.py
 | `Mnit hostels.txt` | Hostel facilities, capacity, rules |
 | `Mnit placements rag.txt` | Placement stats, recruiters, packages |
 | `academics.txt` | Departments, programs, academics |
-| `aide department.txt` | AIDE department details |
+| `aide department.txt` | AIDE (AI & Data Engineering) department |
+| `mnit computer center.txt` | Computer centre, labs, IT staff, support contacts |
 | `Mnit administration.txt` | Administration info |
 | `banks at mnit.txt` | Banks and ATMs on campus |
 | `mnit guest house.txt` | Guest house facilities |
 | `mnit cultural society.txt` | Cultural clubs and events |
 | `sports.txt` | Sports facilities and teams |
-| `mnit computer center.txt` | Computer center details |
 | `Mnit international alumni.txt` | International and alumni affairs |
 | `Mnit post office.txt` | Post office details |
 
