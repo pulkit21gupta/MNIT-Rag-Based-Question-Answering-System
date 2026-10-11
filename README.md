@@ -46,8 +46,8 @@ rag/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/pulkit21gupta/mnit-rag-assistant.git
-cd mnit-rag-assistant
+git clone https://github.com/pulkit21gupta/MNIT-Rag-Based-Question-Answering-System.git
+cd MNIT-Rag-Based-Question-Answering-System
 ```
 
 ### 2. Install dependencies
