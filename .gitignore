@@ -1,0 +1,41 @@
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ─────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Environment variables (KEEP SECRET) ─────────
+.env
+*.env
+
+# ── ChromaDB vector store (auto-rebuilt) ────────
+chroma_db/
+
+# ── Model cache / downloads ──────────────────────
+.cache/
+models/
+*.bin
+*.safetensors
+
+# ── IDE / OS ─────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & temp ──────────────────────────────────
+*.log
+*.tmp
+*.bak

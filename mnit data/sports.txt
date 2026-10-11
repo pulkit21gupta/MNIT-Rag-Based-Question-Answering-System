@@ -1,0 +1,171 @@
+Mnit sports data · TXT
+Copy
+
+================================================================
+MNIT JAIPUR - PHYSICAL EDUCATION & SPORTS DEPARTMENT
+Source: MNIT Jaipur Official Website
+Dataset: MNIT Sports & Physical Education Information
+Purpose: RAG Chatbot Knowledge Base
+================================================================
+ 
+---SECTION: DEPARTMENT OVERVIEW---
+TOPIC: What is the Sports department at MNIT Jaipur?
+The Physical Education & Sports department at MNIT Jaipur is dedicated to the overall development of students' personalities through participation in sports and exercise. The department focuses on Physical Fitness across the lifespan through Physical, Psychological, Emotional, Mental, Social, and Biological sciences. It is recognized as one of the best among technical institutes in the country.
+ 
+TOPIC: How many students participate in sports at MNIT Jaipur?
+More than 1000 students regularly participate in sports and conditioning activities at MNIT Jaipur.
+ 
+TOPIC: What is the academic focus of Sports at MNIT Jaipur?
+The sports program helps students develop knowledge and practical skills related to community health promotion, chronic disease prevention, and rehabilitation. Students learn tools in lifestyle management, nutritional guidance, and physical activity programming.
+ 
+---SECTION: VISION AND MISSION---
+TOPIC: What is the Vision of MNIT Sports department?
+Vision: Sports provide ample and diversity of activities to participate in physical activity, exercise, sports, and competitions. The commitment is to encourage, develop, and enable opportunities for sport participation to all campus community members.
+ 
+TOPIC: What is the Mission of MNIT Sports department?
+Mission: FIT MNIT FIT NATION
+"An active, healthy and inclusive Jaipur, where sport, physical activity, and active recreation provide a common platform for participation, fun, and achievement. It binds communities and the nation, and the ideal environment of MNIT is used sustainably to enhance confidence in ourselves."
+ 
+TOPIC: What are the key goals under FIT MNIT FIT NATION mission?
+- Physical activity opportunities are accessible to all students.
+- All students should frequently play outdoors in safe environments.
+- Physical literacy is considered as essential as any academic subject.
+- Every individual benefits from being physically active.
+- Being active is the commitment of each student at MNIT Jaipur.
+ 
+---SECTION: OBJECTIVES---
+TOPIC: What are the objectives of the Physical Education & Sports office at MNIT?
+1. Draw upon a range of students to inform and advance sport, exercise, education, health, and well-being through research.
+2. Pursue higher performance within the institute and among other CFTIs (Centrally Funded Technical Institutes).
+3. Offer students, staff, and families opportunities to understand hypokinetic diseases and sedentary lifestyle issues through excellent sports infrastructure.
+4. Offer professional development opportunities related to sports and physical education.
+5. Work with external elite sportspeople, Associations, and Federations to enhance sports performance for the country.
+6. Ensure equitable distribution of resources aligned with the New Education Policy 2020.
+7. Ensure the most talented individuals have access to health and holistic fitness learning environments.
+ 
+---SECTION: SPORTS FACILITIES---
+TOPIC: What sports facilities are available at MNIT Jaipur?
+MNIT Jaipur has the following sports facilities:
+- Basketball courts
+- Volleyball (Three Courts with flood lights)
+- Tennis (Three Courts with flood lights)
+- Cricket (Two cemented pitches and one cricket pitch)
+- Football (Two Fields)
+- Kabaddi
+- Track and Field (Athletics)
+- Badminton
+- Table Tennis
+- Chess
+- Gymnasium
+- Yoga
+- Athletic track
+ 
+TOPIC: Are there flood-lit courts at MNIT Jaipur?
+Yes. Volleyball has three courts with flood lights. Tennis also has three courts with flood lights at MNIT Jaipur.
+ 
+TOPIC: How many cricket pitches are there at MNIT Jaipur?
+MNIT Jaipur has two cemented pitches and one cricket pitch (three total).
+ 
+TOPIC: How many football fields are at MNIT Jaipur?
+MNIT Jaipur has two football fields.
+ 
+---SECTION: SPORTS TIMINGS---
+TOPIC: What are the sports facility timings at MNIT Jaipur?
+Morning: 6:00 AM to 8:00 AM
+Evening: 4:00 PM to 10:00 PM
+ 
+TOPIC: What are the office timings of the Sports department at MNIT Jaipur?
+Office Timings: 8:00 AM to 8:00 PM
+ 
+---SECTION: TOURNAMENTS AND EVENTS---
+TOPIC: What tournaments and events does the MNIT Sports department organize?
+The Physical Education & Sports office organizes the following:
+1. All India Inter NIT Sports Tournaments (for students)
+2. Inter-Branch Sports Tournament (IBST) (for students)
+3. Annual Athletic Meet (AAM) (for students)
+4. MST - MNIT Sports Tournament (Invitational tournament, every year)
+5. All India Advani Memorial Basketball Tournament (for professional teams)
+6. Other invitational tournaments
+Students also organize different sports leagues within the institute.
+ 
+TOPIC: What is the All India Inter NIT Sports Tournament?
+The All India Inter NIT Sports Tournaments are organized by the Council of Sports and hosted by one NIT every year in June/July. All students participate in Games/Sports along with Coaches and Managers. The host NIT provides trophies, mementos, and Diplomas/Certificates of merit and participation. Participating NITs bear their own expenses.
+ 
+TOPIC: What is the Inter-Branch Sports Tournament (IBST)?
+The Inter-Branch Sports Tournament (IBST) is a free sports program available to all students at MNIT Jaipur. It runs throughout the year with fixtures nearly every month. Teams compete against each other in various sports leagues.
+ 
+TOPIC: How does the scoring work in IBST?
+- Win: 5 points
+- Draw: 4 points
+- Loss: 2 points
+The Branch Team with the largest points total at year-end wins (men's and women's are scored separately). The branch with the highest combined total is the overall winner. Winners receive mementos/souvenirs and Diplomas/Certificates of merit.
+ 
+TOPIC: What is the Annual Athletic Meet (AAM)?
+The Annual Athletic Meet (AAM) is organized every year for boys and girls across more than 32 events over 2-3 days. Students participate in march past and athletic events. The top 3 positions in all events receive medals and Diplomas/Certificates of merit.
+ 
+TOPIC: What is the medal points system in the Annual Athletic Meet?
+- Gold Medal: 5 points
+- Silver Medal: 4 points
+- Bronze Medal: 1 point
+ 
+TOPIC: What events are organized by MNIT Sports every year?
+- MNIT Sports Tournament (MST) — Every Year
+- Annual Athletic Meet (AAM) — Every Year
+- Inter Branch Tournaments (IBST) — Every Year
+- Inter NIT Tournaments — Every Year (hosted by different NITs)
+ 
+---SECTION: ACHIEVEMENTS---
+TOPIC: What are the sports achievements of MNIT Jaipur?
+At the IIT Delhi Sportech'15 Sports Tournament (27th Feb – 2nd March 2015), participated by around 40 prestigious institutes including IITs, NITs, JNU, DTU, NSIT, and others, MNIT Jaipur won:
+- Gold Medal in Lawn Tennis (Men)
+- Silver Medal in Table Tennis (Girls)
+- 2nd Position in Chess (Men)
+The team was coached by Dr. Virender Singh.
+ 
+---SECTION: CONTACT - ADMINISTRATION (DEANERY)---
+TOPIC: Who is the Dean of Students Welfare at MNIT Jaipur?
+Name: Prof. Kanupriya Sachdev
+Designation: Dean of Students Welfare
+Email: dean.sw@mnit.ac.in
+Phone: +91-141-2715039, 2713316
+ 
+TOPIC: Who is the Associate Dean (Sports) at MNIT Jaipur?
+Name: Prof. Satish Pipralia
+Designation: Associate Dean (Sports)
+Email: ad.sports@mnit.ac.in
+ 
+---SECTION: CONTACT - SPORTS STAFF---
+TOPIC: Who is the Senior Sports Officer at MNIT Jaipur?
+Name: Dr. Virender Singh
+Designation: Senior Student Activity & Sports Officer
+Email: virendersingh.sports@mnit.ac.in
+ 
+TOPIC: Who is the Sports Officer at MNIT Jaipur?
+Name: Dr. Subir Debnath
+Designation: Sports Officer
+Email: sdebnath.sports@mnit.ac.in
+ 
+TOPIC: Who are the administrative staff in the Sports department at MNIT Jaipur?
+1. Mr. Harsh Bhardwaj — Junior Assistant | Email: harshbhardwaj@mnit.ac.in
+2. Mr. Balvir Singh Rawat — Attendant (SG-II) | Email: balvirsingh.sports@mnit.ac.in
+ 
+TOPIC: What is the contact email for sports-related queries at MNIT Jaipur?
+- Senior Sports Officer: virendersingh.sports@mnit.ac.in
+- Sports Officer: sdebnath.sports@mnit.ac.in
+- Associate Dean (Sports): ad.sports@mnit.ac.in
+- Dean of Students Welfare: dean.sw@mnit.ac.in
+ 
+---SECTION: BENEFITS OF JOINING SPORTS---
+TOPIC: Why should students join sports at MNIT Jaipur?
+Joining a sports team at MNIT allows students to:
+- Stay physically fit
+- Meet new people within the institute and other CFTIs
+- Reduce mental stress
+- Develop social skills
+- Participate in state and national level competitions
+ 
+TOPIC: Does MNIT support student athletes?
+Yes. The Physical Education & Sports office supports student athletes by providing facilities, coaches, programs, athlete support services, and administrative support for Performance Sports. Students and student teams perform at state and national levels.
+ 
+================================================================
+END OF DOCUMEN

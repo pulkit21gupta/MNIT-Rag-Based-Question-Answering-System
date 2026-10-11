@@ -1,0 +1,144 @@
+================================================================
+ MNIT RAG ASSISTANT — QUICK REFERENCE COMMANDS
+ Project: D:\Rag Model\rag\rag_demo
+================================================================
+
+----------------------------------------------------------------
+ STEP 0 — NAVIGATE TO PROJECT FOLDER (run this first always)
+----------------------------------------------------------------
+
+    cd "D:\Rag Model\rag\rag_demo"
+
+
+----------------------------------------------------------------
+ STEP 1 — INSTALL DEPENDENCIES (first time only)
+----------------------------------------------------------------
+
+    pip install -r requirements.txt
+
+
+----------------------------------------------------------------
+ STEP 2A — RUN WITH WEB FRONTEND (recommended)
+----------------------------------------------------------------
+
+    python app.py
+
+    Then open your browser and go to:
+        http://localhost:5000
+
+    NOTE: Wait ~15-20 seconds after starting for the
+          "RAG system ready" message before using the UI.
+
+
+----------------------------------------------------------------
+ STEP 2B — RUN AS COMMAND-LINE CHAT (terminal only)
+----------------------------------------------------------------
+
+    python rag_demo.py
+
+    Type your question and press Enter.
+    Type 'quit' or 'exit' to stop.
+
+
+----------------------------------------------------------------
+ REBUILD VECTOR DATABASE (if you add/change knowledge files)
+----------------------------------------------------------------
+
+    python -c "
+    import shutil, os
+    shutil.rmtree(r'D:\Rag Model\rag\chroma_db', ignore_errors=True)
+    print('ChromaDB cleared. Restart app.py to rebuild.')
+    "
+
+    Then start the app normally — it will auto-rebuild:
+        python app.py
+
+
+----------------------------------------------------------------
+ CHECK WHICH FILES ARE INDEXED IN THE DATABASE
+----------------------------------------------------------------
+
+    python -c "
+    import chromadb, os
+    c = chromadb.PersistentClient(path=r'D:\Rag Model\rag\chroma_db')
+    for col in c.list_collections():
+        items = col.get(include=['metadatas'])
+        files = sorted(set(os.path.basename(m.get('source','')) for m in items['metadatas']))
+        print(f'{col.name}: {col.count()} chunks')
+        [print(f'  - {f}') for f in files]
+    "
+
+
+----------------------------------------------------------------
+ VERIFY GROQ API KEY IS WORKING
+----------------------------------------------------------------
+
+    python -c "
+    from groq import Groq; from dotenv import load_dotenv; import os
+    load_dotenv()
+    r = Groq(api_key=os.getenv('GROQ_API_KEY')).chat.completions.create(
+        model='openai/gpt-oss-120b',
+        messages=[{'role':'user','content':'Say OK'}], max_tokens=5)
+    print('API Key OK -', r.choices[0].message.content)
+    "
+
+
+----------------------------------------------------------------
+ CHECK AVAILABLE GROQ MODELS ON YOUR ACCOUNT
+----------------------------------------------------------------
+
+    python -c "
+    from groq import Groq; from dotenv import load_dotenv; import os
+    load_dotenv()
+    models = Groq(api_key=os.getenv('GROQ_API_KEY')).models.list()
+    [print(m.id) for m in models.data]
+    "
+
+
+----------------------------------------------------------------
+ KILL SERVER (if port 5000 is busy)
+----------------------------------------------------------------
+
+    Get-Process -Name python | Stop-Process -Force
+
+
+----------------------------------------------------------------
+ CURRENT SETTINGS (.env file)
+----------------------------------------------------------------
+
+    File:  D:\Rag Model\rag\rag_demo\.env
+    Key:   GROQ_API_KEY="your_key_here"
+
+    Update the key anytime — restart the server after changing.
+
+
+----------------------------------------------------------------
+ MODEL & PATH SETTINGS (rag_demo.py / app.py)
+----------------------------------------------------------------
+
+    LLM_MODEL          = "openai/gpt-oss-120b"   (via Groq)
+    EMBEDDING_MODEL    = "all-MiniLM-L6-v2"       (local CPU)
+    CHROMA_PERSIST_DIR = D:\Rag Model\rag\chroma_db
+    DATA_FOLDER        = D:\Rag Model\rag\mnit data
+
+
+----------------------------------------------------------------
+ KNOWLEDGE BASE FILES (D:\Rag Model\rag\mnit data)
+----------------------------------------------------------------
+
+    Mnit administration.txt
+    Mnit hostels.txt
+    Mnit international alumni.txt
+    Mnit placements rag.txt
+    Mnit post office.txt
+    academics.txt
+    aide department.txt
+    banks at mnit.txt
+    mnit cultural society.txt
+    mnit guest house.txt
+    sports.txt
+
+    To add new topics: drop a .txt file in the folder above,
+    then rebuild the database (see REBUILD section above).
+
+================================================================

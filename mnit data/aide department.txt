@@ -1,0 +1,155 @@
+================================================================
+MNIT JAIPUR - DEPARTMENT OF ARTIFICIAL INTELLIGENCE & DATA ENGINEERING (AIDE)
+Sources: MNIT Official Website (mnit.ac.in), Careers360, CollegeDekho, Shiksha, Vedantu
+Dataset: AIDE Department — FAQs & Key Information
+Purpose: Hybrid RAG Chatbot Knowledge Base
+================================================================
+
+---SECTION: DEPARTMENT OVERVIEW---
+
+TOPIC: What is the AIDE department at MNIT Jaipur?
+The Department of Artificial Intelligence and Data Engineering (AIDE) at MNIT Jaipur is a dedicated department focused on the fields of Artificial Intelligence, Machine Learning, and Data Engineering. It combines AI principles with data engineering practices to prepare graduates for real-world challenges in technology and industry.
+
+TOPIC: When was the AIDE department established at MNIT Jaipur?
+The AIDE department is a relatively new department at MNIT Jaipur, introduced as part of the institute's expansion into emerging technology fields under the New Education Policy (NEP 2020).
+
+TOPIC: What is the vision of the AIDE department?
+To create a center of international standards for imparting high-quality education and conducting research in Artificial Intelligence, Data Engineering, and related fields to meet the current and future challenges of technological development.
+
+TOPIC: What is the mission of the AIDE department?
+To create an enabling environment for excellent teaching, learning, and research in order to produce leading entrepreneurs and innovators in the field for sustainable development and the betterment of the nation.
+
+---SECTION: ACADEMIC PROGRAM---
+
+TOPIC: What course does the AIDE department offer?
+The AIDE department currently offers a B.Tech. (Bachelor of Technology) in Artificial Intelligence and Data Engineering at the undergraduate level. The department plans to soon offer Postgraduate (M.Tech.), Doctoral (Ph.D.), and other cutting-edge programs combining AI principles with data engineering practices.
+
+TOPIC: What is the duration of the B.Tech AIDE program at MNIT Jaipur?
+The B.Tech. in Artificial Intelligence and Data Engineering is a 4-year full-time undergraduate degree program.
+
+TOPIC: How many seats are available in the AIDE B.Tech program?
+The B.Tech. AIDE program has a seat intake of 40 students per year.
+
+TOPIC: What subjects are covered in the AIDE curriculum?
+Key subjects and topics covered in the AIDE curriculum include:
+- Artificial Intelligence and Expert Systems
+- Machine Learning (Linear models, Logistic Regression, Neural Networks, Gradient Descent, Bias-Variance Tradeoff, Regularization, Cross-Validation)
+- Database Systems (SQL, NoSQL, MongoDB, Triggers, Views, Cursors)
+- Data Mining (Classification, Clustering, Sequence Mining, Web Mining, Link Analysis)
+- Digital Image Processing
+- Information Retrieval and Search Engines
+- Recommender Systems
+- Python Programming
+- Computational Learning Theory
+- Multimedia Information Retrieval
+
+TOPIC: What are the future programs planned for the AIDE department?
+The department plans to offer Postgraduate (M.Tech.), Doctoral (Ph.D.), and other advanced programs that combine AI principles with data engineering. These are expected to be launched soon.
+
+---SECTION: ADMISSION & ELIGIBILITY---
+
+TOPIC: How do I get admission to AIDE B.Tech at MNIT Jaipur?
+Admission to B.Tech. AIDE is through JEE Main, followed by JoSAA (Joint Seat Allocation Authority) counselling. Steps:
+1. Appear in JEE Main and obtain a valid All India Rank (AIR).
+2. Register on the JoSAA portal and fill preferences.
+3. Participate in multiple seat allotment rounds.
+4. Accept the allotted seat, pay the fee, and report to MNIT Jaipur.
+
+TOPIC: What is the eligibility criteria for B.Tech AIDE at MNIT Jaipur?
+- Must have passed Class 12 (10+2) with Physics, Chemistry, and Mathematics (PCM).
+- General/EWS Category: Minimum 75% aggregate marks in Class 12 or top 20 percentile of their board.
+- SC/ST/PwD Category: Minimum 65% aggregate marks in Class 12.
+- A valid JEE Main score is mandatory.
+
+TOPIC: What is the JEE Main cutoff for AIDE at MNIT Jaipur?
+JEE Main 2024 Closing Rank for B.Tech AIDE (General/Open Category, All India Quota):
+Approximate closing rank: around 5,500 – 6,500 (Other State quota).
+
+Expected JEE Main 2025 cutoff for AIDE (All India / Open Category):
+- Open Category: Opening rank ~4500 | Closing rank ~5507
+- EWS Category: ~722 to 950
+- OBC-NCL Category: ~1600 to 4880
+- SC Category: ~982 to 1335
+- ST Category: ~517
+
+Note: Cutoffs vary by round, quota (Home State vs Other State), and gender. Always check official JoSAA website for final cutoffs.
+
+TOPIC: Is there a home state quota for AIDE at MNIT Jaipur?
+Yes. Rajasthan state students can apply under the Home State (HS) quota, which typically has different (often lower) cutoffs than the Other State (OS) quota.
+
+---SECTION: FEES---
+
+TOPIC: What is the fee for B.Tech AIDE at MNIT Jaipur?
+Total tuition fee for the complete 4-year B.Tech. AIDE program: approximately INR 2,50,000 (as per NIRF 2024 data). The annual tuition fee for 2024–25 is approximately INR 5 lakhs (total across all semesters).
+
+TOPIC: Are there any fee waivers for AIDE students at MNIT Jaipur?
+Yes:
+- SC/ST/PwD students and students with family income below INR 1 lakh per annum: Full tuition fee waiver.
+- Students with family income between INR 1 lakh and INR 5 lakh per annum: Two-thirds tuition fee waiver.
+
+---SECTION: HEAD OF DEPARTMENT & CONTACT---
+
+TOPIC: Who is the Head of the AIDE department at MNIT Jaipur?
+Name: Dr. Chandra prakash
+Designation: Head, Department of Artificial Intelligence and Data Engineering (AIDE)
+Institute: Malaviya National Institute of Technology, JLN Marg, Jaipur – 302017
+
+TOPIC: What is the contact information for the AIDE department?
+Email: hod.aide@mnit.ac.in
+Phone: 0141-2715069 / 2715070 / 2713430
+Department Website: https://www.mnit.ac.in/dept_aide/
+
+---SECTION: PLACEMENTS---
+
+TOPIC: How are placements for AIDE students at MNIT Jaipur?
+The AIDE department benefits from MNIT Jaipur's strong overall placement cell. Being an AI and Data Engineering branch, students are well-positioned for roles in IT, Data Science, Machine Learning, and Software Engineering. The Training & Placement Cell facilitates internships and campus placements, with nearly 200+ companies visiting campus annually.
+
+TOPIC: What is the overall placement record at MNIT Jaipur?
+As per 2024 placement data:
+- Total students placed: 931 (657 UG + 274 PG)
+- Highest package (UG): INR 64 LPA (CSE branch)
+- Average package (overall): INR 11.06 LPA
+- Median package (B.Tech): INR 11 LPA (NIRF 2024)
+- B.Tech CSE average: INR 19.33 LPA
+- Placement season: Runs from August through March each year.
+
+TOPIC: What companies recruit from MNIT Jaipur?
+Top recruiters include: Apple, Amazon, Google, DE Shaw, JP Morgan, Goldman Sachs, Adobe, Salesforce, Qualcomm, Oracle, Texas Instruments, Microsoft, Deloitte, Atlassian, Arcesium, ServiceNow, Flipkart, Wipro, TCS, Infosys, Capgemini, and more.
+Sectors: IT & IT-enabled services, Core Engineering, Finance & Investment, Manufacturing, Consulting, R&D labs.
+
+TOPIC: When does the placement season start at MNIT Jaipur?
+The placement season at MNIT Jaipur commences in the first week of August and runs through March of the following year.
+
+TOPIC: Do AIDE students get internships?
+Yes. Industrial training/internship is mandatory for UG (B.Tech.) students at MNIT Jaipur. The Training & Placement Cell collaborates with leading organizations to set up internship programs. Most third-year students secure internships.
+
+---SECTION: INSTITUTE OVERVIEW (MNIT JAIPUR)---
+
+TOPIC: What is MNIT Jaipur?
+Malaviya National Institute of Technology (MNIT) Jaipur is a premier public technical institute established in 1963 as Malaviya Regional Engineering College. It was upgraded to NIT status on 26 June 2002 and declared an "Institute of National Importance" under the NIT Act on 15 August 2007. It is located in Jaipur, Rajasthan, on a 317-acre campus.
+
+TOPIC: What is the NIRF ranking of MNIT Jaipur?
+MNIT Jaipur is ranked 42nd–43rd in the Engineering category by NIRF 2024–2025. It is ranked 18th by India Today (2024) among 284 BTech colleges.
+
+TOPIC: Is MNIT Jaipur accredited?
+Yes. MNIT Jaipur is accredited by NBA (National Board of Accreditation) and approved by MHRD and AICTE.
+
+TOPIC: What is the campus size of MNIT Jaipur?
+MNIT Jaipur is spread across approximately 317 acres in Jaipur, Rajasthan, at JLN Marg, Malviya Nagar.
+
+---SECTION: WHY CHOOSE AIDE AT MNIT JAIPUR---
+
+TOPIC: Why should I choose AIDE at MNIT Jaipur?
+- AI and Data Engineering is one of the most in-demand fields globally.
+- MNIT Jaipur is among the top NITs in India with a strong placement record.
+- The department offers a focused, industry-relevant curriculum covering ML, AI, databases, data mining, and more.
+- Students benefit from MNIT's established Training & Placement Cell, with 200+ companies visiting campus.
+- Future postgraduate and doctoral programs are planned, allowing academic growth.
+- MNIT Jaipur's campus provides excellent infrastructure, labs, hostels, and a vibrant student life.
+
+TOPIC: Is AIDE a good branch compared to CSE at MNIT Jaipur?
+AIDE and CSE are both strong branches at MNIT Jaipur. AIDE is focused specifically on AI and Data Engineering, which is a booming career field. While CSE has a slightly higher average placement package historically, AIDE students are well-positioned for roles in Data Science, Machine Learning Engineering, and AI Research. Given the global demand for AI professionals, AIDE at an institute like MNIT Jaipur is considered an excellent choice.
+
+================================================================
+END OF DOCUMENT
+================================================================

@@ -1,0 +1,63 @@
+================================================================
+MNIT JAIPUR - BANKING FACILITIES
+Sources: MNIT Official Website (mnit.ac.in/facilities/banking), MNIT Telephone Directory, SBI IFSC records
+Last Verified: May 2026
+================================================================
+
+---SECTION: OVERVIEW---
+
+TOPIC: Which banks are available on the MNIT Jaipur campus?
+MNIT Jaipur campus has two bank branches operating within campus:
+1. SBI (State Bank of India) – MNIT Campus Branch
+2. ICICI Bank Ltd. – MNIT Campus Branch (located in Prabha Bhawan)
+Other banks such as PNB and OBC are within walking distance of the campus.
+
+---SECTION: SBI BRANCH---
+
+TOPIC: What are the details of the SBI branch at MNIT Jaipur?
+Bank: State Bank of India
+Branch Name: MNIT Campus, Jaipur
+Address: MNIT Campus, Opp. Mahavir Cancer Hospital, JLN Marg, Jaipur – 302017
+IFSC Code: SBIN0015921
+MICR Code: 302002066
+SWIFT Code: SBININBB154
+Branch Manager: Mr. Praveen
+Working Hours: 10:00 AM – 4:00 PM (Monday to Saturday)
+Holiday: 2nd and 4th Saturday – Closed
+ATM: 24×7 ATM available within the bank premises.
+
+TOPIC: What services does SBI MNIT branch offer?
+Services at SBI MNIT Campus Branch:
+- Savings and current accounts
+- Internet banking
+- ATM (24×7)
+- Education loans
+- All standard banking services
+
+---SECTION: ICICI BANK BRANCH---
+
+TOPIC: What are the details of the ICICI Bank branch at MNIT Jaipur?
+Bank: ICICI Bank Ltd.
+Address: Prabha Bhawan, MNIT Campus, JLN Marg, Malviya Nagar, Jaipur – 302017
+Campus Phone: 0141-3227720 / 0141-2713470
+Customer Care (Toll-Free): 18001080
+Services: Savings accounts, internet banking, ATM, telebanking.
+
+---SECTION: GENERAL BANKING---
+
+TOPIC: Is there a 24-hour ATM on the MNIT campus?
+Yes. The SBI MNIT Campus branch has a 24×7 ATM within its premises. ICICI Bank also has ATM access. Both ATMs are accessible at all hours.
+
+TOPIC: Which bank account should new MNIT students open?
+Most new students open accounts at SBI MNIT Campus branch, as many institute financial operations including fee refunds, stipends, and scholarships are processed via SBI. Fee payment through ERP is supported by both SBI and ICICI net banking.
+
+TOPIC: Can students get education loans from MNIT campus banks?
+Yes. The SBI MNIT Campus branch provides education loan facilities to students.
+
+TOPIC: What is the IFSC code for SBI MNIT Jaipur?
+SBI MNIT Campus IFSC Code: SBIN0015921
+This is required for bank transfers, scholarships, and NEFT/RTGS transactions.
+
+================================================================
+END OF DOCUMENT
+================================================================

@@ -1,0 +1,385 @@
+# Cleaned MNIT Academic Dataset
+
+## Source Information
+
+* Source 1: [https://www.mnit.ac.in/academics/](https://www.mnit.ac.in/academics/)
+* Source 2: [https://www.mnit.ac.in/dept_aide/](https://www.mnit.ac.in/dept_aide/)
+* Source 3: [https://www.mnit.ac.in/dept_cse/](https://www.mnit.ac.in/dept_cse/)
+
+---
+
+# Academic Section
+
+## Overview
+
+The Academic Section at MNIT Jaipur is headed by the Dean Academic and is responsible for implementing academic decisions approved by the Senate, SUGB, and SPGB.
+
+### Main Responsibilities
+
+* Maintain UG, PG, and PhD academic records
+* Manage curriculum and academic calendar
+* Handle registration and course enrollment
+* Conduct supplementary examinations
+* Issue certificates and transcripts
+* Manage scholarships and assistantships
+* Handle academic communication between departments and students
+* Maintain records for Senate, Convocation, SUGB, and SPGB meetings
+* Process fee-related matters and refunds
+* Handle RTI and academic correspondence
+
+---
+
+# Academic Administration Contacts
+
+| Name                        | Designation               | Email                                                                       | Phone           |
+| --------------------------- | ------------------------- | --------------------------------------------------------------------------- | --------------- |
+| Prof. D. Boolchandani       | Dean of Academic Affairs  | [dean.acad@mnit.ac.in](mailto:dean.acad@mnit.ac.in)                         | +91-141-2715040 |
+| Dr. Yogesh Kumar Meena      | Associate Dean PG         | [adpg.acad@mnit.ac.in](mailto:adpg.acad@mnit.ac.in)                         |                 |
+| Dr. Ram Dayal               | Associate Dean UG         | [adug.acad@mnit.ac.in](mailto:adug.acad@mnit.ac.in)                         |                 |
+| Prof. Madhu Agarwal         | Coordinator Rankings      | [coordinator.rankings@mnit.ac.in](mailto:coordinator.rankings@mnit.ac.in)   |                 |
+| Prof. Tarush Chandra        | Coordinator Library       | [coordinator.library@mnit.ac.in](mailto:coordinator.library@mnit.ac.in)     |                 |
+| Dr. Srinivasa Rao Nelamarri | Coordinator PhD           | [coordinator.phd@mnit.ac.in](mailto:coordinator.phd@mnit.ac.in)             |                 |
+| Dr. Nivedita Kaul           | Coordinator Accreditation | [coordinator.accred@mnit.ac.in](mailto:coordinator.accred@mnit.ac.in)       |                 |
+| Dr. Anup Malik              | Coordinator Time Table    | [coordinator.timetable@mnit.ac.in](mailto:coordinator.timetable@mnit.ac.in) |                 |
+| Dr. Md Oayes Midda          | Coordinator First Year    | [coordinator.firstyear@mnit.ac.in](mailto:coordinator.firstyear@mnit.ac.in) |                 |
+| Prof. Lava Bhargava         | Chairman SUGB             |                                                                             |                 |
+| Prof. Suja George           | Chairman SPGB             |                                                                             |                 |
+| Dr. Satyanarayana Neeli     | Coordinator Examination   |                                                                             |                 |
+
+---
+
+# Service Contacts
+
+## General Queries
+
+* Email: [accounts.acad@mnit.ac.in](mailto:accounts.acad@mnit.ac.in)
+* Contact Person: Anil Vanjani
+
+## ERP Queries
+
+* Email: [erp.acad@mnit.ac.in](mailto:erp.acad@mnit.ac.in)
+* Contact Person: Hari Gyan
+
+## PhD Queries
+
+* Email: [phd.acad@mnit.ac.in](mailto:phd.acad@mnit.ac.in)
+* Phone: 0141-2715038
+
+## PG Queries
+
+* Email: [pg.acad@mnit.ac.in](mailto:pg.acad@mnit.ac.in)
+* Phone: 0141-2715046
+
+## UG Queries
+
+### Departments
+
+* Electrical Engineering
+* Electronics and Communication Engineering
+* Mechanical Engineering
+* Metallurgical and Materials Engineering
+
+Email: [ugtwo.acad@mnit.ac.in](mailto:ugtwo.acad@mnit.ac.in)
+Phone: 0141-2715037
+
+### Departments
+
+* Civil Engineering
+* Chemical Engineering
+* Computer Science and Engineering
+* Information Technology
+* Architecture
+
+Email: [ugone.acad@mnit.ac.in](mailto:ugone.acad@mnit.ac.in)
+Phone: 0141-2715037
+
+---
+
+# Programs Offered
+
+## Undergraduate Programs
+
+* B.Tech Civil Engineering
+* B.Tech Computer Science and Engineering
+* B.Tech Chemical Engineering
+* B.Tech Electrical Engineering
+* B.Tech Electronics and Communication Engineering
+* B.Tech Metallurgical and Materials Engineering
+* B.Tech Mechanical Engineering
+* B.Arch
+
+## Postgraduate Programs
+
+* M.Tech
+* M.Plan
+* MBA
+* M.Sc
+
+## Doctoral Programs
+
+* PhD programs are offered in all departments.
+
+---
+
+# FAQ Dataset
+
+# General FAQs
+
+## Q1. Is MNIT Jaipur affiliated with any university?
+
+MNIT Jaipur is an autonomous Institute of National Importance under the Ministry of Education, Government of India.
+
+## Q2. Can MNIT Jaipur award degrees?
+
+Yes. MNIT Jaipur can award undergraduate and postgraduate degrees under the NIT Act 2007.
+
+## Q3. Is branch sliding allowed after first year?
+
+No. Internal branch sliding or branch change is not allowed after first year admission through CSAB.
+
+## Q4. Is lateral entry available for diploma students?
+
+No. Lateral entry is not available for diploma or B.Sc. students.
+
+## Q5. Is management quota available?
+
+No. MNIT Jaipur does not offer management quota admissions.
+
+## Q6. Is NRI quota available?
+
+No. However, foreign students can apply through DASA.
+
+---
+
+# Admission FAQs
+
+## Q1. How can students take admission in B.Tech or B.Arch?
+
+Admission is through CSAB counseling after qualifying JEE Main.
+
+## Q2. How can students take admission in M.Tech or M.Plan?
+
+Admission is through CCMT counseling or institute-sponsored admission process.
+
+## Q3. How can students take admission in PhD?
+
+Admission is through institute selection conducted twice every year.
+
+## Q4. How can students take admission in M.Sc?
+
+Admission is through CCMN counseling using IIT JAM score.
+
+## Q5. How can students take admission in MBA?
+
+Admission is through institutional selection based on advertisement released every year.
+
+---
+
+# Certificate FAQs
+
+## Q1. How can students obtain transcripts or duplicate certificates?
+
+Students must apply using the prescribed format and pay the required fee.
+
+## Q2. Is there any fee for first-time issue of grade sheets or migration certificates?
+
+No. First-time issue is free.
+
+## Q3. How can students get bonafide certificates?
+
+Students can apply using the prescribed application format available on the academic website.
+
+## Q4. What is the CGPA to percentage formula?
+
+Reference formula:
+Percentage = CGPA × 10
+
+---
+
+# Scholarship FAQs
+
+## Q1. Are scholarships available for SC/ST/OBC/EBC students?
+
+Yes. Eligible students can apply for Post Matric Scholarships offered by government agencies.
+
+## Q2. Can a student avail multiple scholarships simultaneously?
+
+No. Only one government scholarship can be availed at a time.
+
+## Q3. Do M.Tech students with GATE score receive assistantship?
+
+Yes. Full-time M.Tech students admitted through CCMT receive institute assistantship subject to attendance and CGPA requirements.
+
+## Q4. Are part-time students eligible for scholarship?
+
+No. Part-time students are not eligible for institute assistantship.
+
+## Q5. What is the minimum CGPA requirement for PhD assistantship?
+
+PhD assistantship is terminated if CGPA becomes less than 7.
+
+---
+
+# Registration FAQs
+
+## Q1. Is semester registration compulsory?
+
+Yes. Every student must register every semester.
+
+## Q2. Is physical presence required during registration?
+
+Yes. Students must sign the registration register physically.
+
+## Q3. What happens if a student misses registration?
+
+The student cannot attend classes or examinations.
+
+## Q4. Is late registration allowed?
+
+Yes, with late fee, only within permitted dates.
+
+## Q5. Does fee payment alone complete registration?
+
+No. Physical verification and signature are mandatory.
+
+---
+
+# Academic FAQs
+
+## Q1. How can students add or drop courses?
+
+Students can add or drop courses through ERP within dates specified in the academic calendar.
+
+## Q2. Can students take open electives from their own department?
+
+No. Open electives from the same department are not allowed.
+
+## Q3. How many supplementary subjects are allowed?
+
+Maximum three subjects.
+
+## Q4. Are F grades counted in CGPA?
+
+Yes. F grades are included in CGPA and SGPA calculations.
+
+## Q5. Can students audit courses?
+
+Yes. Audited courses are not included in CGPA.
+
+---
+
+# Important Rules
+
+* Internal branch sliding is not allowed.
+* Supplementary examination is allowed only once for a subject.
+* Maximum 3 subjects can be registered in supplementary exams.
+* Students absent continuously for 3 weeks may have semester registration cancelled.
+* Physical registration is compulsory.
+* Part-time students are not eligible for assistantship.
+* F grades are included in CGPA calculations.
+* Open electives from own department are not allowed.
+
+---
+
+# Important Links
+
+## Academic Section
+
+[https://www.mnit.ac.in/academics/](https://www.mnit.ac.in/academics/)
+
+## Prescribed Formats
+
+[https://www.mnit.ac.in/academics/format.php](https://www.mnit.ac.in/academics/format.php)
+
+## PG Information
+
+[http://www.mnit.ac.in/academics/PG.php](http://www.mnit.ac.in/academics/PG.php)
+
+## Scholarship Information
+
+[http://www.mnit.ac.in/prospective_student/scholarship.php](http://www.mnit.ac.in/prospective_student/scholarship.php)
+
+## Supplementary Examination Rules
+
+[http://www.mnit.ac.in/academics/downloads/Supplementary_Exam.pdf](http://www.mnit.ac.in/academics/downloads/Supplementary_Exam.pdf)
+
+## Unfair Means Rules
+
+[http://www.mnit.ac.in/academics/downloads/UFM.pdf](http://www.mnit.ac.in/academics/downloads/UFM.pdf)
+
+---
+
+# Suggested Metadata for RAG
+
+```json
+{
+  "source": "MNIT Official Website",
+  "department": "Academic Section",
+  "document_type": "FAQ",
+  "category": "Admissions",
+  "program": "UG",
+  "keywords": ["admission", "jee", "csab"]
+}
+```
+
+---
+
+# Recommended Dataset Structure
+
+```text
+mnit_dataset/
+│
+├── academics/
+│   ├── overview.json
+│   ├── contacts.json
+│   ├── rules.json
+│
+├── faqs/
+│   ├── admission.json
+│   ├── registration.json
+│   ├── scholarships.json
+│   ├── academics.json
+│   ├── certificates.json
+│
+├── departments/
+│   ├── cse.json
+│   ├── aide.json
+│
+└── metadata/
+```
+
+---
+
+# Recommended Chunking Strategy
+
+* Chunk Size: 300–500 words
+* Overlap: 50 words
+* Preferred Format: Question-Answer pairs
+* Store metadata with each chunk
+
+---
+
+# Suggested Embedding Models
+
+* BAAI/bge-small-en-v1.5
+* all-MiniLM-L6-v2
+* gte-base
+* bge-base-en
+
+---
+
+# Recommended Stack for Hybrid RAG
+
+| Component | Recommended Tool         |
+| --------- | ------------------------ |
+| Scraping  | BeautifulSoup + Selenium |
+| Embedding | SentenceTransformers     |
+| Vector DB | ChromaDB / FAISS         |
+| Reranker  | bge-reranker             |
+| Backend   | FastAPI                  |
+| Frontend  | React                    |
+| LLM       | Llama 3 / Mistral        |
+
+---
+
+# End of Cleaned Dataset
