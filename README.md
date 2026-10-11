@@ -1,20 +1,45 @@
 # MNIT RAG Assistant
 
-A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers questions about hostels, placements, academics, departments, sports, and more from a curated knowledge base.
+A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers questions about hostels, placements, academics, departments, sports, and more.
 
-![Tech Stack](https://img.shields.io/badge/LLM-Groq-orange) ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-blue) ![VectorDB](https://img.shields.io/badge/VectorDB-ChromaDB-green) ![Framework](https://img.shields.io/badge/Backend-FastAPI-009688)
+Uses a hybrid search approach: local knowledge base (ChromaDB) combined with live official web search (Tavily restricted to mnit.ac.in).
+
+![Tech Stack](https://img.shields.io/badge/LLM-Groq-orange) ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-blue) ![VectorDB](https://img.shields.io/badge/VectorDB-ChromaDB-green) ![Framework](https://img.shields.io/badge/Backend-FastAPI-009688) ![WebSearch](https://img.shields.io/badge/WebSearch-Tavily-purple)
 
 ---
 
 ## Features
 
+- **Hybrid Search** — Simultaneously searches local knowledge base AND live mnit.ac.in (official only)
 - **Beautiful Web UI** — Dark-mode chat interface with markdown rendering and source citations
-- **RAG Pipeline** — Retrieves relevant chunks before answering (no hallucinations)
+- **Two source types** — Local sources (teal chips) and official web sources (green clickable chips)
 - **Fast LLM** — Powered by Groq API (`openai/gpt-oss-120b`)
 - **Local Embeddings** — `all-MiniLM-L6-v2` runs fully on CPU, no paid embedding API needed
 - **Persistent Vector Store** — ChromaDB auto-saves and reloads on restart
-- **Expandable Knowledge Base** — Drop new `.txt` files in the data folder to add topics
-- **Auto API Docs** — Interactive Swagger UI available at `/docs` (powered by FastAPI)
+- **Auto API Docs** — Interactive Swagger UI at `/docs` (powered by FastAPI)
+- **Official sources only** — Tavily restricted to `mnit.ac.in`, no third-party sites
+
+---
+
+## How It Works
+
+```
+User Question
+     |
+     |---- ChromaDB Search (local MNIT .txt files) ----+
+     |                                                   |
+     |---- Tavily Web Search (mnit.ac.in only) ---------+
+                                                         |
+                                              Combined Context
+                                                         |
+                                            Groq LLM (openai/gpt-oss-120b)
+                                                         |
+                                         Answer + Source Citations
+```
+
+Sources in the chat UI:
+- **Teal chips** — local knowledge base files
+- **Green chips** — official mnit.ac.in pages/PDFs (clickable, open URL)
 
 ---
 
@@ -23,22 +48,18 @@ A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers quest
 ```
 rag/
 ├── rag_demo/
-│   ├── app.py              # Flask backend (Web UI + REST API)
-│   ├── rag_demo.py         # CLI version (terminal chat)
+│   ├── app.py              # FastAPI backend (hybrid RAG + Tavily)
+│   ├── rag_demo.py         # CLI version (local KB only)
 │   ├── requirements.txt    # Python dependencies
 │   ├── .env.example        # API key template
 │   ├── cmds.txt            # Quick command reference
-│   ├── run_rag.bat         # Windows batch launcher
+│   ├── run_rag.bat         # Windows one-click launcher
 │   └── static/
 │       ├── index.html      # Chat UI
 │       ├── style.css       # Dark-mode styles
 │       └── app.js          # Frontend logic
-├── mnit data/              # Knowledge base (.txt files)
-│   ├── Mnit hostels.txt
-│   ├── Mnit placements rag.txt
-│   ├── academics.txt
-│   └── ...
-└── chroma_db/              # Auto-generated (gitignored)
+├── mnit data/              # Local knowledge base (.txt files)
+└── chroma_db/              # Auto-generated vector store (gitignored)
 ```
 
 ---
@@ -56,14 +77,17 @@ cd MNIT-Rag-Based-Question-Answering-System
 pip install -r rag_demo/requirements.txt
 ```
 
-### 3. Set up your API key
+### 3. Set up API keys
 ```bash
 copy rag_demo\.env.example rag_demo\.env
 ```
-Open `rag_demo/.env` and add your key from [console.groq.com](https://console.groq.com/):
+Open `rag_demo/.env` and fill in both keys:
 ```
-GROQ_API_KEY="your_groq_api_key_here"
+GROQ_API_KEY="your_groq_key_here"       # from console.groq.com
+TAVILY_API_KEY="your_tavily_key_here"   # from app.tavily.com
 ```
+
+> Note: Tavily key is optional — the system still works using the local knowledge base if no Tavily key is provided.
 
 ### 4. Run the Web UI
 ```bash
@@ -83,26 +107,6 @@ python rag_demo.py
 
 ---
 
-## How It Works
-
-```
-Knowledge Base (.txt files)
-        |
-  Text Splitting (1000 char chunks, 200 overlap)
-        |
-  Local Embeddings (all-MiniLM-L6-v2)
-        |
-  ChromaDB Vector Store  <-- persisted on disk
-        |
-User Question --> Semantic Search (top 4 chunks)
-        |
-  Groq LLM (openai/gpt-oss-120b) + Retrieved Context
-        |
-     Answer + Source Citations
-```
-
----
-
 ## Knowledge Base Topics
 
 | File | Topic |
@@ -116,6 +120,7 @@ User Question --> Semantic Search (top 4 chunks)
 | `mnit guest house.txt` | Guest house facilities |
 | `mnit cultural society.txt` | Cultural clubs and events |
 | `sports.txt` | Sports facilities and teams |
+| `mnit computer center.txt` | Computer center details |
 | `Mnit international alumni.txt` | International and alumni affairs |
 | `Mnit post office.txt` | Post office details |
 
@@ -125,13 +130,16 @@ To add new topics, drop a `.txt` file in the `mnit data/` folder and delete `chr
 
 ## Configuration
 
-Edit these constants at the top of `app.py` or `rag_demo.py`:
+Edit these constants at the top of `app.py`:
 
 ```python
 LLM_MODEL          = "openai/gpt-oss-120b"    # Groq model
 EMBEDDING_MODEL    = "all-MiniLM-L6-v2"        # Local embeddings
 CHROMA_PERSIST_DIR = r"path\to\chroma_db"      # Vector store location
 TXT_PATH           = r"path\to\mnit data"      # Knowledge base folder
+TAVILY_MAX_RESULTS = 3                          # Web results per query
+# Web search domain restriction:
+include_domains    = ["mnit.ac.in"]             # Official MNIT only
 ```
 
 ---
@@ -143,6 +151,7 @@ TXT_PATH           = r"path\to\mnit data"      # Knowledge base folder
 | LLM | Groq API (`openai/gpt-oss-120b`) |
 | Embeddings | `sentence-transformers/all-MiniLM-L6-v2` |
 | Vector Store | ChromaDB |
+| Web Search | Tavily (restricted to `mnit.ac.in`) |
 | Orchestration | LangChain (LCEL) |
 | Backend | FastAPI + Uvicorn (ASGI) |
 | Frontend | HTML / CSS / Vanilla JS |

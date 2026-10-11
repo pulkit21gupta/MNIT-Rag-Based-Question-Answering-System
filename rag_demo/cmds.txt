@@ -14,7 +14,7 @@
  STEP 1 — INSTALL DEPENDENCIES (first time only)
 ----------------------------------------------------------------
 
-    pip install -r requirements.txt
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe -m pip install -r requirements.txt
 
 
 ----------------------------------------------------------------
@@ -33,6 +33,7 @@
 
     NOTE: Wait ~20 seconds after starting for the
           "RAG system ready" message before using the UI.
+          Web search badge shows "Web search ON" when Tavily is active.
 
 
 ----------------------------------------------------------------
@@ -49,21 +50,21 @@
  REBUILD VECTOR DATABASE (if you add/change knowledge files)
 ----------------------------------------------------------------
 
-    python -c "
-    import shutil, os
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe -c "
+    import shutil
     shutil.rmtree(r'D:\Rag Model\rag\chroma_db', ignore_errors=True)
     print('ChromaDB cleared. Restart app.py to rebuild.')
     "
 
     Then start the app normally — it will auto-rebuild:
-        python app.py
+        run_rag.bat
 
 
 ----------------------------------------------------------------
  CHECK WHICH FILES ARE INDEXED IN THE DATABASE
 ----------------------------------------------------------------
 
-    python -c "
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe -c "
     import chromadb, os
     c = chromadb.PersistentClient(path=r'D:\Rag Model\rag\chroma_db')
     for col in c.list_collections():
@@ -78,25 +79,27 @@
  VERIFY GROQ API KEY IS WORKING
 ----------------------------------------------------------------
 
-    python -c "
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe -c "
     from groq import Groq; from dotenv import load_dotenv; import os
     load_dotenv()
     r = Groq(api_key=os.getenv('GROQ_API_KEY')).chat.completions.create(
         model='openai/gpt-oss-120b',
         messages=[{'role':'user','content':'Say OK'}], max_tokens=5)
-    print('API Key OK -', r.choices[0].message.content)
+    print('Groq API Key OK -', r.choices[0].message.content)
     "
 
 
 ----------------------------------------------------------------
- CHECK AVAILABLE GROQ MODELS ON YOUR ACCOUNT
+ VERIFY TAVILY API KEY IS WORKING
 ----------------------------------------------------------------
 
-    python -c "
-    from groq import Groq; from dotenv import load_dotenv; import os
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe -c "
+    from tavily import TavilyClient; from dotenv import load_dotenv; import os
     load_dotenv()
-    models = Groq(api_key=os.getenv('GROQ_API_KEY')).models.list()
-    [print(m.id) for m in models.data]
+    r = TavilyClient(api_key=os.getenv('TAVILY_API_KEY')).search(
+        query='MNIT Jaipur', max_results=1, include_domains=['mnit.ac.in'])
+    print('Tavily API Key OK - Results:', len(r.get('results', [])))
+    print('URL:', r['results'][0]['url'] if r.get('results') else 'No results')
     "
 
 
@@ -112,19 +115,23 @@
 ----------------------------------------------------------------
 
     File:  D:\Rag Model\rag\rag_demo\.env
-    Key:   GROQ_API_KEY="your_key_here"
 
-    Update the key anytime — restart the server after changing.
+    GROQ_API_KEY   = your Groq key from console.groq.com
+    TAVILY_API_KEY = your Tavily key from app.tavily.com
+
+    Update keys anytime — restart the server after changing.
 
 
 ----------------------------------------------------------------
- MODEL & PATH SETTINGS (rag_demo.py / app.py)
+ MODEL & PATH SETTINGS (app.py)
 ----------------------------------------------------------------
 
     LLM_MODEL          = "openai/gpt-oss-120b"   (via Groq)
     EMBEDDING_MODEL    = "all-MiniLM-L6-v2"       (local CPU)
     CHROMA_PERSIST_DIR = D:\Rag Model\rag\chroma_db
-    DATA_FOLDER        = D:\Rag Model\rag\mnit data
+    TXT_PATH           = D:\Rag Model\rag\mnit data
+    TAVILY_MAX_RESULTS = 3                         (web results per query)
+    WEB_DOMAIN         = mnit.ac.in only           (official source)
 
 
 ----------------------------------------------------------------
@@ -139,11 +146,29 @@
     academics.txt
     aide department.txt
     banks at mnit.txt
+    mnit computer center.txt
     mnit cultural society.txt
     mnit guest house.txt
     sports.txt
 
     To add new topics: drop a .txt file in the folder above,
     then rebuild the database (see REBUILD section above).
+
+
+----------------------------------------------------------------
+ HOW THE HYBRID SEARCH WORKS
+----------------------------------------------------------------
+
+    Every question triggers TWO searches in parallel:
+
+    1. ChromaDB (local) -- searches your 12 MNIT .txt files
+    2. Tavily (web)     -- searches mnit.ac.in only (official)
+
+    Both results are combined and passed to the Groq LLM,
+    which generates one unified answer.
+
+    In the chat UI:
+      Teal chips  = local knowledge base sources
+      Green chips = official mnit.ac.in web sources (clickable)
 
 ================================================================
