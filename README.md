@@ -1,23 +1,23 @@
-# MNIT RAG Assistant 🎓
+# MNIT RAG Assistant
 
-A **Retrieval-Augmented Generation (RAG)** chatbot for MNIT Jaipur — answers questions about hostels, placements, academics, departments, sports, and more from a curated knowledge base.
+A Retrieval-Augmented Generation (RAG) chatbot for MNIT Jaipur — answers questions about hostels, placements, academics, departments, sports, and more from a curated knowledge base.
 
 ![Tech Stack](https://img.shields.io/badge/LLM-Groq-orange) ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-blue) ![VectorDB](https://img.shields.io/badge/VectorDB-ChromaDB-green) ![Framework](https://img.shields.io/badge/Backend-Flask-lightgrey)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🌐 **Beautiful Web UI** — Dark-mode chat interface with markdown rendering & source citations
-- 🔍 **RAG Pipeline** — Retrieves relevant chunks before answering (no hallucinations)
-- ⚡ **Fast LLM** — Powered by Groq API (`openai/gpt-oss-120b`)
-- 🧠 **Local Embeddings** — `all-MiniLM-L6-v2` runs fully on CPU, no paid embedding API
-- 💾 **Persistent Vector Store** — ChromaDB auto-saves and reloads on restart
-- 📚 **Expandable Knowledge Base** — Drop new `.txt` files in the data folder to add topics
+- **Beautiful Web UI** — Dark-mode chat interface with markdown rendering and source citations
+- **RAG Pipeline** — Retrieves relevant chunks before answering (no hallucinations)
+- **Fast LLM** — Powered by Groq API (`openai/gpt-oss-120b`)
+- **Local Embeddings** — `all-MiniLM-L6-v2` runs fully on CPU, no paid embedding API needed
+- **Persistent Vector Store** — ChromaDB auto-saves and reloads on restart
+- **Expandable Knowledge Base** — Drop new `.txt` files in the data folder to add topics
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 rag/
@@ -42,7 +42,7 @@ rag/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -57,7 +57,6 @@ pip install -r rag_demo/requirements.txt
 
 ### 3. Set up your API key
 ```bash
-# Copy the template
 copy rag_demo\.env.example rag_demo\.env
 ```
 Open `rag_demo/.env` and add your key from [console.groq.com](https://console.groq.com/):
@@ -79,27 +78,27 @@ python rag_demo.py
 
 ---
 
-## 🏗️ How It Works
+## How It Works
 
 ```
 Knowledge Base (.txt files)
-        ↓
+        |
   Text Splitting (1000 char chunks, 200 overlap)
-        ↓
+        |
   Local Embeddings (all-MiniLM-L6-v2)
-        ↓
-  ChromaDB Vector Store  ←── persisted on disk
-        ↓
-User Question → Semantic Search (top 4 chunks)
-        ↓
+        |
+  ChromaDB Vector Store  <-- persisted on disk
+        |
+User Question --> Semantic Search (top 4 chunks)
+        |
   Groq LLM (openai/gpt-oss-120b) + Retrieved Context
-        ↓
+        |
      Answer + Source Citations
 ```
 
 ---
 
-## 📚 Knowledge Base Topics
+## Knowledge Base Topics
 
 | File | Topic |
 |------|-------|
@@ -108,18 +107,18 @@ User Question → Semantic Search (top 4 chunks)
 | `academics.txt` | Departments, programs, academics |
 | `aide department.txt` | AIDE department details |
 | `Mnit administration.txt` | Administration info |
-| `banks at mnit.txt` | Banks & ATMs on campus |
+| `banks at mnit.txt` | Banks and ATMs on campus |
 | `mnit guest house.txt` | Guest house facilities |
-| `mnit cultural society.txt` | Cultural clubs & events |
-| `sports.txt` | Sports facilities & teams |
-| `Mnit international alumni.txt` | International & alumni affairs |
+| `mnit cultural society.txt` | Cultural clubs and events |
+| `sports.txt` | Sports facilities and teams |
+| `Mnit international alumni.txt` | International and alumni affairs |
 | `Mnit post office.txt` | Post office details |
 
-> To add new topics, drop a `.txt` file in the `mnit data/` folder and delete `chroma_db/` to trigger a rebuild.
+To add new topics, drop a `.txt` file in the `mnit data/` folder and delete `chroma_db/` to trigger a rebuild.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit these constants at the top of `app.py` or `rag_demo.py`:
 
@@ -132,7 +131,7 @@ TXT_PATH           = r"path\to\mnit data"      # Knowledge base folder
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -145,6 +144,12 @@ TXT_PATH           = r"path\to\mnit data"      # Knowledge base folder
 
 ---
 
-## 📄 License
+## Author
+
+**Pulkit Gupta** — [github.com/pulkit21gupta](https://github.com/pulkit21gupta)
+
+---
+
+## License
 
 MIT License — free to use, modify, and distribute.
