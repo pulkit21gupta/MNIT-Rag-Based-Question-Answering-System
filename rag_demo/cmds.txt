@@ -24,7 +24,8 @@
     python app.py
 
     Then open your browser and go to:
-        http://localhost:5000
+        http://localhost:5000        <-- Chat UI
+        http://localhost:5000/docs  <-- Auto API docs (Swagger UI)
 
     NOTE: Wait ~15-20 seconds after starting for the
           "RAG system ready" message before using the UI.
