@@ -21,13 +21,17 @@
  STEP 2A — RUN WITH WEB FRONTEND (recommended)
 ----------------------------------------------------------------
 
-    python app.py
+  EASIEST WAY — just double-click:
+    run_rag.bat
 
-    Then open your browser and go to:
+  OR from terminal:
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe app.py
+
+    Then open your browser:
         http://localhost:5000        <-- Chat UI
-        http://localhost:5000/docs  <-- Auto API docs (Swagger UI)
+        http://localhost:5000/docs  <-- API docs (Swagger UI)
 
-    NOTE: Wait ~15-20 seconds after starting for the
+    NOTE: Wait ~20 seconds after starting for the
           "RAG system ready" message before using the UI.
 
 
@@ -35,7 +39,7 @@
  STEP 2B — RUN AS COMMAND-LINE CHAT (terminal only)
 ----------------------------------------------------------------
 
-    python rag_demo.py
+    C:\Users\Dell\AppData\Local\Python\pythoncore-3.14-64\python.exe rag_demo.py
 
     Type your question and press Enter.
     Type 'quit' or 'exit' to stop.

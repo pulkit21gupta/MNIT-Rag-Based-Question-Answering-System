@@ -62,8 +62,8 @@ clearBtn.addEventListener('click', () => {
 });
 
 // ── Status polling ────────────────────────────────
-function setStatus(ready, msg) {
-  statusText.textContent = msg;
+function setStatus(ready, msg, tavilyEnabled) {
+  statusText.textContent = msg + (tavilyEnabled ? ' · Web search ON' : '');
   statusDot.className    = 'status-dot ' + (ready ? 'ready' : 'busy');
   systemReady            = ready;
   sendBtn.disabled       = !ready || !questionInput.value.trim();
@@ -73,11 +73,11 @@ async function pollStatus() {
   try {
     const res  = await fetch(`${API}/api/status`);
     const data = await res.json();
-    setStatus(data.ready, data.message);
+    setStatus(data.ready, data.message, data.tavily_enabled);
     if (!data.ready) setTimeout(pollStatus, 2000);
     else             loadSources();
   } catch {
-    setStatus(false, 'Connecting…');
+    setStatus(false, 'Connecting…', false);
     setTimeout(pollStatus, 3000);
   }
 }
@@ -151,10 +151,20 @@ function appendMessage(role, html, sources) {
   if (isAI && sources && sources.length) {
     const chips = document.createElement('div');
     chips.className = 'source-chips';
-    sources.forEach(s => {
-      const chip = document.createElement('span');
-      chip.className = 'source-chip';
-      chip.innerHTML = `<span class="source-chip-icon">${getFileIcon(s.file)}</span>${s.file}`;
+
+    // Group: local first, then web
+    const local = sources.filter(s => s.type !== 'web');
+    const web   = sources.filter(s => s.type === 'web');
+    [...local, ...web].forEach(s => {
+      const chip = document.createElement(s.url ? 'a' : 'span');
+      chip.className = 'source-chip' + (s.type === 'web' ? ' source-chip-web' : '');
+      if (s.url) {
+        chip.href   = s.url;
+        chip.target = '_blank';
+        chip.rel    = 'noopener noreferrer';
+      }
+      const icon = s.type === 'web' ? '🌐' : getFileIcon(s.file);
+      chip.innerHTML = `<span class="source-chip-icon">${icon}</span>${s.file}`;
       chip.title = s.snippet;
       chips.appendChild(chip);
     });

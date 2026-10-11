@@ -513,11 +513,25 @@ html, body {
   padding: 3px 10px;
   cursor: default;
   transition: all var(--transition);
+  text-decoration: none;
 }
 
 .source-chip:hover {
   background: rgba(6,182,212,0.2);
   box-shadow: 0 0 8px var(--accent-glow);
+}
+
+/* Web search source chips — green tint, clickable */
+.source-chip-web {
+  color: #34d399;
+  background: rgba(52,211,153,0.1);
+  border-color: rgba(52,211,153,0.25);
+  cursor: pointer;
+}
+
+.source-chip-web:hover {
+  background: rgba(52,211,153,0.2);
+  box-shadow: 0 0 8px rgba(52,211,153,0.3);
 }
 
 .source-chip-icon { font-size: 12px; }
